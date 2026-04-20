@@ -1,0 +1,68 @@
+{
+  "name": "brevo-saas-kit",
+  "version": "1.0.0",
+  "description": "Production-grade Brevo email automation library for SaaS developers",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./transactional": "./src/transactional/index.js",
+    "./contacts": "./src/contacts/index.js",
+    "./webhooks": "./src/webhooks/index.js",
+    "./workflows": "./src/workflows/index.js",
+    "./analytics": "./src/analytics/index.js",
+    "./queue": "./src/queue/index.js",
+    "./security": "./src/security/index.js",
+    "./gdpr": "./src/gdpr/index.js",
+    "./integrations/nextjs": "./src/integrations/nextjs/index.js",
+    "./integrations/nextjs/actions": "./src/integrations/nextjs/actions/index.js",
+    "./integrations/nextjs/webhook": "./src/integrations/nextjs/webhook/route.js",
+    "./integrations/express": "./src/integrations/express/index.js"
+  },
+  "files": [
+    "src",
+    "templates",
+    "index.js"
+  ],
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "brevo",
+    "sendinblue",
+    "email",
+    "saas",
+    "automation",
+    "transactional",
+    "newsletter",
+    "webhook",
+    "gdpr",
+    "nodejs",
+    "contacts",
+    "queue"
+  ],
+  "author": "",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/your-username/brevo-saas-kit.git"
+  },
+  "homepage": "https://github.com/your-username/brevo-saas-kit#readme",
+  "bugs": {
+    "url": "https://github.com/your-username/brevo-saas-kit/issues"
+  },
+  "dependencies": {
+    "@getbrevo/brevo": "^2.2.0",
+    "zod": "^3.23.0"
+  },
+  "optionalDependencies": {
+    "bullmq": "^5.0.0"
+  },
+  "devDependencies": {
+    "vitest": "^1.6.0"
+  }
+}

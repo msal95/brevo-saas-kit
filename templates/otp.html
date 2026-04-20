@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>Verify your email address</title>
+</head>
+<body style="margin:0;padding:0;background:#f4f4f5;font-family:Arial,sans-serif;">
+  <span style="display:none;max-height:0;overflow:hidden;mso-hide:all;">Your verification code is {{params.OTP}}</span>
+  <table width="100%" cellpadding="0" cellspacing="0" style="background:#f4f4f5;padding:40px 0;">
+    <tr><td align="center">
+      <table width="600" cellpadding="0" cellspacing="0"
+        style="background:#ffffff;border-radius:8px;overflow:hidden;box-shadow:0 2px 4px rgba(0,0,0,0.08);max-width:600px;">
+        <tr>
+          <td style="background:#4f46e5;padding:32px 48px;">
+            <h2 style="margin:0;color:#ffffff;font-size:20px;font-weight:700;">{{params.APP_NAME}}</h2>
+          </td>
+        </tr>
+        <tr>
+          <td style="padding:40px 48px;">
+            <h1 style="margin:0 0 16px;font-size:24px;font-weight:700;color:#111827;">
+              Verify your email address
+            </h1>
+            <p style="margin:0 0 24px;font-size:15px;line-height:1.6;color:#374151;">
+              Hi {{params.FIRSTNAME}}, use the code below to confirm your email address.
+              This code expires in <strong>{{params.EXPIRY_MINUTES}} minutes</strong>.
+            </p>
+            <div style="text-align:center;margin:0 0 24px;">
+              <div style="display:inline-block;background:#f3f4f6;border-radius:8px;padding:20px 40px;">
+                <span style="font-size:40px;font-weight:700;letter-spacing:10px;color:#111827;font-family:monospace;">
+                  {{params.OTP}}
+                </span>
+              </div>
+            </div>
+            <p style="margin:0 0 16px;font-size:14px;line-height:1.6;color:#6b7280;text-align:center;">
+              Do not share this code with anyone. {{params.APP_NAME}} will never ask for it.
+            </p>
+            <p style="margin:0;font-size:14px;line-height:1.6;color:#9ca3af;text-align:center;">
+              Didn't request this? You can safely ignore this email.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td style="background:#f9fafb;padding:20px 48px;text-align:center;font-size:12px;color:#9ca3af;border-top:1px solid #f3f4f6;">
+            This is an automated security email from {{params.APP_NAME}}.
+          </td>
+        </tr>
+      </table>
+    </td></tr>
+  </table>
+</body>
+</html>
