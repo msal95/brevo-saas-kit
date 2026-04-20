@@ -49,11 +49,11 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/your-username/brevo-saas-kit.git"
+    "url": "https://github.com/msal95/brevo-saas-kit.git"
   },
-  "homepage": "https://github.com/your-username/brevo-saas-kit#readme",
+  "homepage": "https://github.com/msal95/brevo-saas-kit#readme",
   "bugs": {
-    "url": "https://github.com/your-username/brevo-saas-kit/issues"
+    "url": "https://github.com/msal95/brevo-saas-kit/issues"
   },
   "dependencies": {
     "@getbrevo/brevo": "^2.2.0",
