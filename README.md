@@ -4,9 +4,10 @@ Production-grade Brevo (formerly Sendinblue) email automation library for SaaS d
 
 Not just an API wrapper — real workflow patterns, webhook handling, drip sequences, GDPR compliance, and framework integrations used in actual SaaS products.
 
-[![npm version](https://img.shields.io/npm/v/brevo-saas-kit)](https://www.npmjs.com/package/brevo-saas-kit)
+[![npm version](https://img.shields.io/npm/v/brevo-saas-kit.svg)](https://www.npmjs.com/package/brevo-saas-kit)
+[![npm downloads](https://img.shields.io/npm/dm/brevo-saas-kit.svg)](https://www.npmjs.com/package/brevo-saas-kit)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Node.js](https://img.shields.io/badge/node-%3E%3D18-brightgreen)](https://nodejs.org)
+[![Node >=18](https://img.shields.io/node/v/brevo-saas-kit.svg)](https://www.npmjs.com/package/brevo-saas-kit)
 
 ---
 
@@ -322,4 +323,4 @@ import { eraseContact } from 'brevo-saas-kit/gdpr';
 
 ## License
 
-MIT © [your-username](https://github.com/your-username)
+MIT © [msal95](https://github.com/msal95)

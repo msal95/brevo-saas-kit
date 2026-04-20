@@ -45,11 +45,11 @@
     "contacts",
     "queue"
   ],
-  "author": "",
+  "author": "Muhammad Salman",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/msal95/brevo-saas-kit.git"
+    "url": "git+https://github.com/msal95/brevo-saas-kit.git"
   },
   "homepage": "https://github.com/msal95/brevo-saas-kit#readme",
   "bugs": {
