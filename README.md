@@ -29,12 +29,16 @@ Not just an API wrapper — real workflow patterns, webhook handling, drip seque
 
 ```bash
 npm install brevo-saas-kit
+yarn add brevo-saas-kit
+pnpm add brevo-saas-kit
+bun add brevo-saas-kit
 ```
 
 For async email queuing (optional):
 
 ```bash
 npm install brevo-saas-kit bullmq
+# or: yarn add brevo-saas-kit bullmq
 ```
 
 ---
