@@ -1,6 +1,6 @@
 {
   "name": "brevo-saas-kit",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Production-grade Brevo email automation library for SaaS developers",
   "type": "module",
   "main": "./index.js",
