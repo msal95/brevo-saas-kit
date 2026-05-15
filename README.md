@@ -327,4 +327,4 @@ import { eraseContact } from 'brevo-saas-kit/gdpr';
 
 ## License
 
-MIT © [Muhammad Salman](https://github.com/msal95)
+MIT © [Muhammad Shahid](https://github.com/msal95)
